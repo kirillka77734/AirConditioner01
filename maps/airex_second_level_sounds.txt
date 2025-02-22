@@ -1,0 +1,66 @@
+"Event.LeavingSafety_AC01"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"rndwave"
+	{
+ 		"wave"	"music/hl1_stinger_song7.wav"
+ 		"wave"	"music/hl1_stinger_song8.wav"
+	}
+
+	GameData
+	{
+		"MusicDelayTime"        "2.0"
+		"MusicPriority"			"LOW"
+		"MusicTrack"            "overdub"	
+	}
+}
+
+
+
+"Music.HL1_song14"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"10"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"music/hl1_song14.mp3"
+}
+"Music.HL1_song9"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"10"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"music/hl1_song9.mp3"
+}
+"Music.HL2_song1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"10"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"music/HL2_song1.mp3"
+}
+"Event.ScenarioWin1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"music/hl2_song10.mp3"
+	
+	GameData
+	{
+		"MusicTrack"            "default"
+		"MusicMaster"           "PLAY_TO_END | DONT_DISENGAGE"
+		"MusicPriority"			"CRITICAL"
+		"MusicParameters"		"AFTER_DEATH | AFTER_MISSION_END"
+	}
+}

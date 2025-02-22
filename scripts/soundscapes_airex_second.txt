@@ -1,0 +1,190 @@
+
+"exterior.fire"
+{
+	"dsp" "19"
+	"fadetime" ".5"
+
+
+	"playlooping"
+	{
+		"volume"	"0.44"
+		"pitch"		"100"
+		"wave"		"ambient/fire/Exterior_Fire01_stereo.wav"
+		"position"	"random"
+	}
+
+	"playlooping"
+	{
+		"volume"	".68"
+		"pitch"		"100"
+		"wave"		"ambient/ambience/urban_rooftop_ambloop02.wav"
+		"position"	"random"
+	}
+
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/fire/Interior_FireClose02_mono.wav"
+		"origin"	"-3296 640 1385.03"
+		"soundlevel" 	"SNDLVL_140dB"
+	}
+//	"playlooping"
+//	{
+//		"volume"	"0.17"
+//		"pitch"		"100"
+//		"wave"		"(ambient/ambience/crucial_TreeStreet_Bird_loop.wav"
+//		"position"	"random"
+//	}
+	
+}
+
+
+"exterior.fire3"
+{
+	"dsp" "19"
+	"fadetime" ".5"
+
+
+	"playlooping"
+	{
+		"volume"	"0.44"
+		"pitch"		"100"
+		"wave"		"ambient/fire/Exterior_Fire01_stereo.wav"
+		"position"	"random"
+	}
+
+	"playlooping"
+	{
+		"volume"	".68"
+		"pitch"		"100"
+		"wave"		"ambient/ambience/urban_rooftop_ambloop02.wav"
+		"position"	"random"
+	}
+
+
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"wave"		"ambient/fire/Interior_FireClose02_mono.wav"
+		"origin"	"3632 -2856 1726.03"
+		"soundlevel" 	"SNDLVL_140dB"
+	}
+//	"playlooping"
+//	{
+//		"volume"	"0.17"
+//		"pitch"		"100"
+//		"wave"		"(ambient/ambience/crucial_TreeStreet_Bird_loop.wav"
+//		"position"	"random"
+//	}
+	
+}
+
+
+
+
+"exterior.fire2"
+{
+
+	"dsp"	"1"
+	"fadetime" ".5"
+
+	"playlooping"
+	{
+		"wave"		"ambient/fire/Interior_Fire02_stereo.wav"
+		"volume" 	".65"
+		"pitch"		"85"
+		"position"	"random"
+	}
+	"playlooping"
+	{
+		"volume"	"0.44"
+		"pitch"		"100"
+		"wave"		"ambient/fire/Exterior_Fire01_stereo.wav"
+		"position"	"random"
+	}
+
+
+
+	"playsoundscape"
+	{
+		"name"			"fire.debris.metal"
+		"volume" 		"1"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"fire.debris.wood"
+		"volume" 		"1"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"structure.groans"
+		"volume" 		".86"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"fire.debris.junk"
+		"volume" 		".8"
+	}
+}
+
+"fire.int"
+{
+	"dsp"	"1"
+
+	// underlying area "tone"
+	"playlooping"
+	{
+		"volume"	"0.65"
+		"pitch"		"100"
+		"wave"		"ambient/atmosphere/crucial_quiet_cellblock_amb.wav"
+	}
+
+
+	// scary sounds
+	"playrandom"
+	{
+		"time"		"5,11"
+		"volume"	".4,.8"
+		"pitch"		"90,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient/materials/wood_creak1.wav"
+			"wave"	"ambient/materials/wood_creak2.wav"
+			"wave"	"ambient/materials/wood_creak3.wav"
+			"wave"	"ambient/materials/wood_creak4.wav"
+			"wave"	"ambient/materials/wood_creak5.wav"
+			"wave"	"ambient/materials/wood_creak6.wav"
+		}
+	}
+
+	"playsoundscape"
+	{
+		
+		"name"			"urban.util_woodfloorsqueaks"
+		"volume"		"1"
+	}
+	"playsoundscape"
+	{
+		"name"			"urban.util_distantexplosions"
+		"volume" 		"1"
+	}
+	"playsoundscape"
+	{
+		"name"			"fire.debris.metal"
+		"volume" 		".77"
+	}
+
+	"playsoundscape"
+	{
+		"name"			"fire.debris.wood"
+		"volume" 		".65"
+	}
+	
+}

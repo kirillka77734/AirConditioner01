@@ -1,0 +1,9 @@
+sky
+{
+
+	"$basetexture" "skybox/sky_airexchange01bk"
+	"$hdrbasetexture" "skybox/sky_airexchange01bk"
+	"$nofog" 1
+	"$ignorez" 1
+	$nomip 1
+}

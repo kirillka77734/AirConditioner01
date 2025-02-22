@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/AirExTruck/airex_truck"
+	"$normalmapalphaenvmapmask" 1
+	"$bumpmap" "Models/AirExTruck/airex_truck_normal"
+	"$surfaceprop" "metal"
+//	"$selfillum" 1
+//	"$envmap" "env_cubemap"
+	"$envmapmask" "Models/AirExTruck/airex_truck_mask"
+
+}

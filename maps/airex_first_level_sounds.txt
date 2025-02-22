@@ -1,0 +1,69 @@
+"Event.LeavingSafety_AC01"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"rndwave"
+	{
+ 		"wave"	"common/null.wav"
+ 		"wave"	"common/null.wav"
+	}
+
+	GameData
+	{
+		"MusicDelayTime"        "2.0"
+		"MusicPriority"			"LOW"
+		"MusicTrack"            "overdub"	
+	}
+}
+
+"Event.SafeRoom"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"music/hl1_stinger_song8.wav"
+	
+	GameData
+	{
+		"MusicTrack"            "default"
+		"MusicMaster"           "PLAY_TO_END | DONT_DISENGAGE"
+		"MusicPriority"			"CRITICAL"
+		"MusicParameters"		"AFTER_DEATH | AFTER_MISSION_END"
+	}
+}
+
+"Music.HL2_rnd_welcome"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"10"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"rndwave"
+	{
+ 		"wave"	"music/hl1_stinger_song7.wav"
+ 		"wave"	"music/hl1_stinger_song8.wav"
+	}
+}
+"Music.HL1_song9"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"10"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"music/hl1_song9.mp3"
+}
+"Music.HL2_song1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"10"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"music/HL2_song1.mp3"
+}

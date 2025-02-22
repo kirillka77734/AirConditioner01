@@ -1,0 +1,31 @@
+// The addoninfo.txt file is a metadata file that is required by all Source Engine Add-ons. 
+
+"AddonInfo"
+{
+	addonSteamAppID			550
+	addontitle 				"Air Conditioner"
+	addonversion			1.0
+	addontagline			"Air Conditioner"
+	addonDescription		"Air Conditioner"
+	addonauthor				"Valve/k9r0ll[kirillka77734]/hl2-beta.ru"
+	addonauthorSteamID		"k9r0ll"
+	//addonSteamGroupName	""
+	addonURL0               ""
+
+	addonContent_Campaign		1
+	addonContent_Script		1
+	addonContent_Music		0
+	addonContent_Sound		0
+	addonContent_Prop		0 //This Add-on provides new props
+	addonContent_Prefab		0 //Provides new prefabs
+	
+	addonContent_BackgroundMovie	0 // Provides a replacement for the background movie.
+	addonContent_Survivor			0 // Provides a new survivor model. 0=false, 1=true, String in quotes if replaces specific single character, i.e. "Francis"
+	addonContent_BossInfected		0 // Provides a new boss infected model. Break these out?
+	addonContent_CommonInfected		0 // Provides a new common infected model
+	addonContent_WeaponModel		0 // Provides a new appearance to existing weapons, but does not change their function
+	addonContent_Weapon				0 // provides new weapons or new zombie killing functionality, i.e. guns, explosives, booby traps, hot tar,
+	addonContent_Skin				0 // 0 if no new skin textures for existing models. 1 if multiple skin pack. String in quotes if specific single skin
+	addonContent_Spray				0 // Provides new sprays.
+	addonContent_Map				1 // Add-on provides a standalone map
+}

@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Decals/decalglasswindow003a"
+	"$selfillumtexture" "decals/decalglasswindowmask003a"
+	"$decalscale" 0.25
+}

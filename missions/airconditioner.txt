@@ -1,0 +1,99 @@
+"mission"
+{
+	"Name"		"Airconditioner"
+	"Version"	"1"
+	"Author"	"Valve/k9r0ll[kirillka77734]"
+	"Website"	"https://steamcommunity.com/id/k9r0ll/myworkshopfiles/"
+
+	"DisplayTitle"	"Air Conditioner 01"
+	"Description"	"Liberation of factory workers!"
+	"Image"			"maps/AC_menu"
+	"OuttroImage"	"vgui/outroTitle_AC"
+
+	
+	"meleeweapons"		"fireaxe;machete;crowbar;frying_pan;katana;baseball_bat;tonfa;knife;shovel;pitchfork"
+	"allow_cola"		"1"
+	"no_wpn_restore"	"1"		// on player wipe, don't keep any weapons
+	"no_female_boomers"	"1"		// Can't have female Boomers because there's no audio support
+	"no_cs_weapons"		"1"		// no Germany / CS weapons, preserve the weapons in the gun shop
+
+	"survivor_set"		"1"		// Which set of survivors should be used. 1=L4D1, 2=L4D2
+
+
+	// Loading poster data
+	"poster"
+	{
+		"posterImage"		            "LoadingScreen_AC"
+		"posterImage_widescreen"		"LoadingScreen_AC_widescreen"
+		
+		"fullscreen"		"1"
+		
+		"posterTitle"		"Air Conditioner"
+		"posterTitle_y"		"320"
+		
+		"posterTagline"		""
+		"posterTagline_y"	"380"
+		
+		"l4d2_names"				"1"
+		
+		"gambler_player_name_x"		"9999"
+		"gambler_player_name_y"		"9999"
+		
+		"producer_player_name_x"	"9999"		
+		"producer_player_name_y"	"9999"	
+		
+		"coach_player_name_x"		"9999"	
+		"coach_player_name_y"		"9999"	
+		
+		"mechanic_player_name_x"	"9999"
+		"mechanic_player_name_y"	"9999"
+
+		"character_order"		"namvet;teengirl;manager;biker"
+	}
+
+
+	"modes"
+	{
+		"coop"
+		{
+			"1"
+			{
+				"Map" "airex_first"
+				"DisplayName" "First steps"
+				"Image" "maps/AC1_mapic"
+				"TankVariant" 	"models/infected/hulk_l4d1.mdl"
+				"HunterVariant" "models/infected/hunter_l4d1.mdl"
+				"SmokerVariant" "models/infected/smoker_l4d1.mdl"
+				"BoomerVariant" "models/infected/boomer_l4d1.mdl"				
+			}
+			"2"
+			{
+				"Map" "airex_second"
+				"DisplayName" "In the centre!"
+				"Image" "maps/AC2_mapic"
+				"TankVariant" 	"models/infected/hulk_l4d1.mdl"
+				"HunterVariant" "models/infected/hunter_l4d1.mdl"
+				"SmokerVariant" "models/infected/smoker_l4d1.mdl"
+				"BoomerVariant" "models/infected/boomer_l4d1.mdl"				
+				
+			}
+		}
+ 	  "versus"
+ 	  {
+ 		  "1"
+ 		  {
+				"Map" "airex_first"
+				"DisplayName" "First steps"
+				"Image" "maps/AC1_mapic"
+ 			"VersusCompletionScore"	"800" 
+  		  }			
+ 		  "2"
+ 		  {
+				"Map" "airex_second"
+				"DisplayName" "In the centre!"
+				"Image" "maps/AC2_mapic"
+ 			"VersusCompletionScore"	"1000" //This map is longer and rewards 1000 points.
+  		  }			
+ 	  }		
+	}
+}

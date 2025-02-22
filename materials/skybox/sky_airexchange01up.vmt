@@ -1,0 +1,9 @@
+sky
+{
+	// Original shader: BaseTexture
+	"$basetexture" "skybox/sky_airexchange01up"
+	"$hdrbasetexture" "skybox/sky_airexchange01up"
+	"$nofog" 1
+	"$ignorez" 1
+	$nomip 1
+}
