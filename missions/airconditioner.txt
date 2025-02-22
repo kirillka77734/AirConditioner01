@@ -1,7 +1,7 @@
 "mission"
 {
 	"Name"		"Airconditioner"
-	"Version"	"1"
+	"Version"	"2"
 	"Author"	"Valve/k9r0ll[kirillka77734]"
 	"Website"	"https://steamcommunity.com/id/k9r0ll/myworkshopfiles/"
 
